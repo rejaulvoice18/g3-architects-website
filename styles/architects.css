@@ -111,6 +111,44 @@ main > section{
     line-height: 26px;
     margin-bottom: 32px;
 }
+/*Some facts related styles*/
+.some-facts-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.fact-card{
+    width: 240px;
+    height: 240px;
+    border:1px solid #FF900E;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* padding: 35px 45px; */
+    
+}
+.fact-number{
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.fact-name{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.some-facts-description{
+    max-width: 540px;
+    color: #727272;
+    font-size: 1rem;
+    line-height: 26px;
+}
+.facts-title{
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 24px;
+}
 /*Media queries for responsiveness*/
 
 @media screen and (max-width: 576px){
