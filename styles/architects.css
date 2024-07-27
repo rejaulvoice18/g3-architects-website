@@ -25,11 +25,11 @@
     font-weight: 600;
     font-size: 1.25rem;
 }
-main{
+main, footer{
     max-width: 1440px;
     margin: 0 auto;
 }
-main > section{
+main > section, footer{
     margin-top: 130px;
 }
 /*header styles*/
@@ -218,6 +218,14 @@ main > section{
 }
 .our-companies img{
     filter: grayscale(100%);
+}
+/*Footer styles*/
+footer{
+    background-color: #FFF4E7;
+}
+.all-right{
+    text-align: center;
+    padding: 38px 0;
 }
 /*Media queries for responsiveness*/
 
